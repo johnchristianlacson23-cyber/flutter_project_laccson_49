@@ -10,6 +10,8 @@ class Reelspage extends StatefulWidget {
 class _ReelspageState extends State<Reelspage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(),
+    );
   }
 }
