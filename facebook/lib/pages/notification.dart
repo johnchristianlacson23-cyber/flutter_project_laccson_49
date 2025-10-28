@@ -15,7 +15,7 @@ class _NotificationPageState extends State<NotificationPage> {
         title: Text('NOTIFICATIONS'), titleTextStyle: TextStyle(fontSize: 25, color: Colors.black, fontWeight: FontWeight.bold, fontStyle: FontStyle.normal),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.more_horiz)),
-          IconButton(onPressed: () {}, icon: Icon(Icons.search)),
+          IconButton(onPressed: () {}, icon: Icon(Icons.search)),       
         ],
         ),       
       body: Column(
@@ -32,7 +32,7 @@ class _NotificationPageState extends State<NotificationPage> {
           leading: CircleAvatar(
             backgroundImage: AssetImage('assets/profile/prof4.jpg'), 
             ),
-          title: Text('John Christian like your post'),
+          title: Text('Meow meow react your post'),
           subtitle: Text('5h'),
           trailing: Icon( Icons.more_horiz),
           ),
@@ -40,7 +40,7 @@ class _NotificationPageState extends State<NotificationPage> {
           leading: CircleAvatar(
             backgroundImage: AssetImage('assets/profile/prof5.jpg'),
             ),
-          title: Text('John Christian like your post'),
+          title: Text('Camille request add friend'),
           subtitle: Text('14h'),
           trailing: Icon( Icons.more_horiz),
           ),
